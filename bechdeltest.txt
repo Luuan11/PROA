@@ -1,0 +1,21 @@
+1) A função desse site é bem executada?
+
+- A função do site é bem executada.
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+
+- Encontrei um filme interessante que passou nesse teste, se chamar Alita: Angel Battle.
+
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+
+- Encontrei o filme The Conjuring: The Devil Made Me Do It, apesar de suas criticas eu gostei do filme, 
+e notei que ele não passou no teste. 
+
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+
+- O site é fraco de visual e de acessibilidade, a forma de busca dele é extremamente fraca, e sem foco na experiência do usúario,
+se for buscar um filme de 2019 o usuário precisa ficar rolando a página, se não souber usar o Ctrl F.
+para ficar melhor esse site, ele precisa de um visual mais forte e de uma ferramente de busca precisa ao site.
