@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+table{
+    margin-top: 200px;
+}
+
+table, td {
+    color: white;
+}
+a {
+    color: rgb(177, 64, 221);
+}
+img{
+    border-radius: 8%;
+    border-color: white;
+    border:none;
+}
+
+/* .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+} */

@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.tela{
+    width: 60%;
+}
+
+.imagem{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body{
+    height:100%;
+    background-color:#85C2FF;
+    position: relative;
+    font-family: Arial;
+}
+img {
+    height: 400px;
+    width: 600px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 3;
+    border-color: #000000; 
+    position:relative;
+}
+h2{
+    position: relative;
+}
+.quadrado {
+	list-style-type: square;
+	}
+.cornova {
+    color: rgb(112, 101, 96);
+}
+.laranja{
+    color:#FF6A28;
+}
+.proximo{
+    font-size:1.2em;
+    background-color: rgb(223, 138, 28);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    color:white;
+    margin-bottom: 1em;
+    border-radius: 10%;
+    border: none;
+    position: absolute;
+    text-decoration: none;
+    cursor:pointer;
+}

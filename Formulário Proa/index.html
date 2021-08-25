@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário - Posso te conhecer melhor ?</title>
+</head>
+<body>
+  <h1 id="tittle">Formulário - Posso te conhecer melhor?</h1>
+  <p id="subtittle">Preencha o formulário</p>
+<form>
+<table border="1" cellpadding="10" width="600" > 
+  <tr>
+    <td> <label class="campo" for="nome"> Qual é o seu nome?</label></td>
+    <td><input type="text" placeholder="Resposta" required ></td>
+  </tr>
+  <tr>
+    <td> <label class="campo" for="email">Qual é o seu Email? </label></td>
+    <td><input type="email"placeholder="Resposta" id="email"required></td>
+  </tr>
+  <tr>
+    <td> <label class="campo" for="tempo">O que faz no tempo livre?</label></td>
+    <td><input type="text" placeholder="Resposta" ></td>
+  </tr>
+  <tr>
+    <td>
+      O que você prefere assistir ?
+    </td>
+    <td>
+    <input type="radio" id="serie" name="lazer" value="serie"></label>
+    <label for="serie">Série</label>
+    <input type="radio" id="desenho" name="lazer" value="desenho">
+    <label for="desenho">Desenho</label>
+    </td>
+  </tr>
+  <tr>
+    <td colspan='2' align="center">
+      <label for="hoje">Que dia você nasceu?</label>
+      <input type="date" id="hoje" name="hoje" value="" min="1990-01-01" max="2020-12-31">
+    </td>
+  </tr>
+   <tr>
+    <td></td>
+    <td>
+      <select placeholder="Selecione">
+      <option value='0' disabled>Selecione</option>
+        <option value='1'>Sim</option>
+        <option value='2'>Não</option>
+        </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Você prefere descobrir a cura do câncer ou ter o primeiro contato com os aliens ?</td>
+    <td>
+      <select placeholder="Selecione">
+      <option value='0' disabled>Selecione </option>
+        <option value='1'>Descobrir a cura do câncer</option>
+        <option value='2'>Ter o primeiro contato com os aliens</option>
+        </select>
+    </td>
+  </tr>
+  <tr>
+    <td>Você prefere ver o futuro (20segs) ou mudar o passado ? </td>
+    <td>
+      <select placeholder="Selecione">
+      <option value='0' disabled>Selecione </option>
+        <option value='1'>Ver o futuro</option>
+        <option value='2'>Mudar o passado</option>
+        </select>
+      </td>
+      <tr>
+      <td>Você prefere ser inteligente ou ser rico ? </td>
+      <td>
+        <select placeholder="Selecione">
+        <option value='0' disabled>Selecione </option>
+          <option value='1'>Ser inteligente</option>
+          <option value='2'>Ser rico</option>
+          </select>
+      </td>
+  </tr>
+  <tr>
+    <td>
+        <label for="escolha">Ser um supervilão ou ser um superherói ?</label>
+    </td>
+    <td>
+        <select>
+            <option>Supervilão </option>
+            <option>Superherói </option>
+        </select>
+    </td>
+</tr>
+<tr>
+  <td>
+      <label>Qual a sua melhor lembrança?</label>
+  </td>
+  <td>
+      <textarea id='texto' name='texto'></textarea>
+  </td>
+</tr>
+<tr>
+    <td>
+        <label>Conte um pouco sobre você</label>
+    </td>
+    <td>
+      <textarea id='texto' name='texto'></textarea>
+      </td>
+    </tr>
+  <td>
+      <label for="avatar">Envie uma foto:</label></td>
+  <td>
+      <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+  </td>
+</tr>
+  </table>
+  <button class="botao" type="submit">Concluido</button>
+</form>
+</body>
+</html>

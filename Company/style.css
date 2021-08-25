@@ -1,0 +1,75 @@
+:root {
+    --grey: #dbd3d3;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    background-color: #9c64eb;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+p {
+    color: rgba(39, 151, 226, 0.747);
+    font-size: 1.3rem;
+}
+
+.tela {
+    height: 36.25rem;
+    width: 340px;
+
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.line {
+    background-color: var(--grey);
+    height: 25px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle {
+    background-color: var(--grey);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.line2{
+    border-radius: 5px;
+    width: 40%;
+    height: 15px;
+    background-color: var(--grey);
+    margin: 15px;
+}
+

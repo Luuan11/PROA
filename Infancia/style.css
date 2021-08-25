@@ -1,0 +1,19 @@
+body{
+   background-color: #5b82ee;
+   font-family: Arial;
+}
+
+.center{
+    text-align: center;
+    color:rgb(245, 236, 236);
+    font-size: 3em;
+}
+
+h2, h1{
+    text-shadow: -1px 2px 2px black;
+}
+
+.linha{
+    display:flex;
+    justify-content: space-between;
+}

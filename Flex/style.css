@@ -1,0 +1,58 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    background-color:green;
+    height: 20vh;
+    width: 100vw;
+}
+
+article{
+    background-color: yellow;
+    height: 50vh;
+    width: 31vw;
+}
+
+article~article{
+    background-color: red;
+    height: 50vh;
+    width: 31vw;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    background-color: blue;
+    height:150%;
+    width: 31vw;
+}
+
+footer{
+    background-color: orange;
+    height: 20vh;
+    width: 65.5vw;
+
+}
+p{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial;
+    margin: 20px; 
+}
+.caixa{
+    height: 30px;
+    width: 30px;
+}
