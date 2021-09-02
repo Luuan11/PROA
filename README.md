@@ -13,7 +13,7 @@ Programming languages used
 <p> Essas são as minhas atividades do  Instituto Proa </p>
 <p> Have Fun </p>
 
-<h3>🌟 Tecnologias</h3>
+<h3>🌟 Tecnologias Usadas</h3>
 Linguagens de programação usadas 
 
 - Html
