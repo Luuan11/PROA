@@ -2,7 +2,7 @@
 <p> This is my activies from Proa institute </p>
 <p> Have Fun </p>
 
-<h3>🌟 Tecnologias</h3>
+<h3>🌟 Technologies Used</h3>
 Programming languages used
 
 - Html
