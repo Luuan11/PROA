@@ -1,0 +1,25 @@
+body{
+    border: 0;
+    padding:0;
+    margin:0;
+    box-shadow: none;
+}
+.container{
+    font-style: normal;
+    font-family: Arial;
+    margin-top: 5px;
+    margin-left: 100px;
+    height: 80vh;
+    width: 100vh;
+    background-color: rgb(157, 189, 98);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+h1{
+    margin-left: 20px;
+    color: purple;
+}
+p, ul, li {
+    margin-left: 30px;
+    color: rebeccapurple;
+}
