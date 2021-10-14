@@ -1,0 +1,213 @@
+:root {
+    --dark-purple: #191B2D;
+    --light-purple: #241F3B;
+    --section: #363551;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: url('assets/imagens/fundoPreto.png');
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 9rem;
+}
+
+nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: opacity(.7);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul i {
+    margin-right: 5px;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 3.438rem;
+}
+
+nav ul li a {
+    color: rgba(194, 19, 19, 0.918);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+section img {
+    width: 100%;
+}
+
+span {
+    color: rgba(255, 0, 0, 0.432);
+    font-weight: bold;
+}
+
+.imgTeste {
+    width: 70px;
+    height: 80px;
+    z-index: 5;
+    animation: teste 7s linear infinite;
+}
+
+.slaaa {
+    width: 50%;
+    height: 40%;
+}
+
+@keyframes teste {
+    from {
+		transform: rotate(0);
+	}
+
+    to {
+		transform: rotate(360deg);
+	}
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8rem;
+}
+
+.description p {
+    width: 40rem;
+    color: #787683;
+    font-size: 1.4rem;
+}
+
+.description img {
+    width: 35rem;
+    height: 35rem;
+}
+
+.description h1 {
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    color: #a2a1a7;
+}
+
+.members p {
+    margin: 0 30px;
+}
+
+.members i {
+    margin-right: 5px
+}
+
+.section {
+    background-color: black;
+    border: none;
+}
+
+#impostorTripulante {
+    display: flex;
+    flex-direction: column;
+}
+
+#impostorTripulante p, h2 {
+    text-align: center;
+}
+
+.impostorr {
+    width: 60%;
+    height: 40%;
+}
+.ace {
+    width: 450px;
+}
+
+.jog {
+    width: 500px;
+}
+
+.plataf img {
+    width: 500px;
+    z-index: 4;
+}
+
+.plataf div {
+    text-align: center;
+}
+
+.plataf p {
+    padding: 0 0 10px 0px;
+}
+
+.article2 {
+    background-color: black;
+}
+
+article {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article img {
+    width: 20rem;
+    height: 20rem;
+    margin: 0px 25px 0;
+}
+
+article h2 {
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+article p {
+    width: 40rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+footer {
+    padding: 1.5rem 5rem;
+    background-color: black;
+}
+
+footer a {
+    color: rgba(194, 19, 19, 0.918);
+    text-decoration: none;
+}
