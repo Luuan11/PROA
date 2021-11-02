@@ -1,0 +1,153 @@
+:root {
+    --dark-purple: #191B2D;
+    --light-purple: #241F3B;
+    --section: #363551;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    background-color: var(--light-purple);
+    padding: 1rem 11rem;
+}
+
+nav img {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: opacity(.7);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul i {
+    margin-right: 5px;
+}
+
+nav ul li:not(:last-child) {
+    margin-right: 3.438rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+section {
+    background-color: var(--section);
+    height: 100vh;
+    display: flex;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8rem;
+}
+
+.description p {
+    width: 40rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.description img {
+    width: 35rem;
+    height: 35rem;
+}
+
+.description h1 {
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.members p {
+    margin: 0 30px;
+}
+
+.members i {
+    margin-right: 5px
+}
+
+article {
+    background-color: var(--light-purple);
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article img {
+    width: 20rem;
+    height: 20rem;
+    margin: 0px 25px 0;
+}
+
+article h2 {
+    color: white;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+article p {
+    width: 40rem;
+    color: #a3a2ad;
+    font-size: 1.4rem;
+}
+
+.article2 {
+    background-color: var(--section);
+}
+
+.ace {
+    width: 28rem;
+    height: 20rem;
+}
+
+.usabilidade {
+    width: 20rem;
+    height: 21rem;
+}
+
+.back {
+    width: 13rem;
+    height: 15rem;
+}
+
+footer {
+    background-color: var(--light-purple);
+    padding: 1.5rem 5rem;
+}
