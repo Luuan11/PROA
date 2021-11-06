@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação de Objetos</title>
+</head>
+<body>
+    <div class="exemplo"></div>
+
+    <script>
+        class elevador{
+            constructor(andar, capacidade, pessoas, predio, terreo) {
+                this.andar = andar;
+                this.capacidade = capacidade;
+                this.pessoas = pessoas;
+                this.predio = predio;
+                this.terreo = terreo;
+            }
+
+            entra(){
+                if(pessoas == capacidade) {
+                    return;
+                } else {
+                    pessoas++;
+                }
+            }
+
+            sair() {
+                if(capacidade == 0) {
+                    return;
+                } else {
+                    capacidade--;
+                }
+            }
+
+            desce(){
+                if(andar == predio) {
+                    return
+                } else {
+                    andar++;
+                }
+            }
+
+            sobe(){
+                if(andar == predio) {
+                    return;
+                } else {
+                    andar--;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
