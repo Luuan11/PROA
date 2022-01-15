@@ -1,6 +1,22 @@
-# [PT] Proa💙
+# Instituto Proa💙
 <p> Essas são as minhas atividades do  Instituto Proa </p>
-<p> Divirta-se</p>
+<p> Divirta-se com trabalhos como esses</p>
+
+### Página Among us :
+
+![gif](https://github.com/Luuan11/PROA/blob/main/assets/gif.gif)
+
+[Meu codigo](https://github.com/Luuan11/PROA/tree/main/Amongus)
+
+---
+
+### Página Client and Server : 
+
+![gif2](https://github.com/Luuan11/PROA/blob/main/assets/gif2.gif)
+
+[Meu codigo](https://github.com/Luuan11/PROA/tree/main/ClientAndServer)
+
+---
 
 ### ✨ Tecnologias Usadas 
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -8,20 +24,4 @@
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 
 
-
----
-
-# [EN] Proa 💙
-<p> This is my activies from Proa institute </p>
-<p> Have Fun </p>
-
-
-###  Technologies Used🌟
-<code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-
----
-<img height="400px" src="https://user-images.githubusercontent.com/79935555/130865475-9a9d1cb0-f235-421b-824b-3bc41da14938.jpg"/>
-
-feito com ❤️ by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
+Made with ❤️ by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
